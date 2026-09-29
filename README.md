@@ -2,7 +2,13 @@
 
 A runnable reference pipeline that turns synthetic claims-payment CSV files into a governed daily data product.
 
-**Status: local MVP.** Implemented with Python and SQLite. PostgreSQL, dbt and cloud deployment are planned extensions, not current capabilities. No customer or production data is included.
+**Status: published, runnable MVP.** Implemented with Python and SQLite. PostgreSQL, dbt and cloud deployment are planned extensions, not current capabilities. No customer or production data is included.
+
+[![Validate pipeline](https://github.com/ernestowendling/governed-data-product-pipeline/actions/workflows/validate.yml/badge.svg)](https://github.com/ernestowendling/governed-data-product-pipeline/actions/workflows/validate.yml)
+
+[Start with the walkthrough](docs/walkthrough.md) · [Architecture decisions](docs/architecture.md) · [Validation and evidence](docs/validation.md)
+
+The initial published version passed all 15 behavioral tests, sample ingestion and evidence export on Python 3.11, 3.12 and 3.13 in GitHub Actions.
 
 ## What it demonstrates
 
