@@ -21,7 +21,11 @@ A test initially held a database connection open during temporary-directory clea
 
 These files are captured outputs from the local synthetic demonstration. Runtime timestamps and hashes are evidence, not performance benchmarks.
 
+## Published CI validation
+
+The [initial published commit](https://github.com/ernestowendling/governed-data-product-pipeline/commit/87c690e85b213285d0caead1823797b90b8ada7b) passed the [GitHub Actions run](https://github.com/ernestowendling/governed-data-product-pipeline/actions/runs/36593100876) on Python 3.11, 3.12 and 3.13. Each job ran all 15 behavioral tests, ingested the synthetic sample and exported the evidence report successfully.
+
 ## Not validated
 
-The GitHub Actions workflow has been authored but has not run remotely. Only Python 3.12 was exercised locally. Docker, PostgreSQL, dbt and cloud deployments are not implemented or tested.
+Only Python 3.12 was exercised locally; the additional versions were exercised in GitHub Actions. Docker, PostgreSQL, dbt and cloud deployments are not implemented or tested.
 
