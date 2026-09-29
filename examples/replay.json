@@ -1,0 +1,15 @@
+{
+  "batch_id": "245811e6ee056e367820f8d982a4b69b7dfc35c01065dc9caa7f412cfc62a1a5",
+  "source_name": "synthetic-payments.csv",
+  "source_sha": "a768f4fd76494eefe16db97ec0a4215acaf50c928de5e6e7c561a5c73e2cbd05",
+  "contract_sha": "e696d0ef391b875b02b89da95633054581140733ebc887d9c6e560fda28decad",
+  "transform_sha": "371990c46a3261812b5c6ad3954b0f6d46533337612edf877fb5c5c6e2283548",
+  "created_at": "2026-09-29T06:55:44.552171+00:00",
+  "status": "PUBLISHED",
+  "total_rows": 12,
+  "inserted_rows": 10,
+  "duplicate_rows": 0,
+  "invalid_rows": 2,
+  "message": "Contract checks completed",
+  "replayed": true
+}

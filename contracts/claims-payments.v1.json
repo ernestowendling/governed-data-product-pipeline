@@ -1,0 +1,26 @@
+{
+  "contract_version": "1.0.0",
+  "product": "synthetic-claims-payments",
+  "owner_role": "Claims Data Owner",
+  "steward_role": "Claims Data Steward",
+  "classification": "synthetic-public",
+  "columns": [
+    "payment_id",
+    "policy_id",
+    "paid_date",
+    "amount",
+    "currency"
+  ],
+  "currencies": [
+    "EUR",
+    "CHF"
+  ],
+  "policy_ids": [
+    "SYN-POL-001",
+    "SYN-POL-002",
+    "SYN-POL-003"
+  ],
+  "max_amount_cents": 100000000,
+  "max_invalid_fraction": 0.25
+}
+
